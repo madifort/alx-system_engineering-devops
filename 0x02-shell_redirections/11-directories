@@ -1,0 +1,2 @@
+#!/bin/bash 
+count=$(find . -type d -not -path '*/\.*' -not -name '.' -not -name '..' | iwc -l)
